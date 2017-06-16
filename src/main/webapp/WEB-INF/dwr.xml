@@ -1,0 +1,13 @@
+<!DOCTYPE dwr PUBLIC
+    "-//GetAhead Limited//DTD Direct Web Remoting 3.0//EN"
+    "http://getahead.org/dwr/dwr30.dtd">
+<dwr>
+  <allow>
+  	<!-- 
+  		javascript 自定义生成js函数的名称
+  	 -->
+    <create creator="new" javascript="DwrPush">
+      <param name="class" value="com.cowboy.servelt.DwrPush"/>
+    </create>
+  </allow>
+</dwr>  
